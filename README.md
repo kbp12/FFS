@@ -1,4 +1,5 @@
 # Forecasting Future Sales
+
 ### Business Objective
 Every retailer must stay on top of planning activity to stand the demand of goods based on needs.
 
@@ -8,19 +9,27 @@ Building a forecasting model to predict a store item demand is an uphill task as
 
 I used LSTM, which is very suitable for handling time-series data and widely used for forecasting purposes.
 
+
 ### Dataset description
 train.csv — Training data
 test.csv — Test data
 
-The fields included in the dataset are as below,
+The fields included in the dataset are as below:
+
 date — Date of the sales data.
+
 store — Store ID
+
 item — Item ID
+
 sales — The count of items sold at a particular
+
 
 ### Tech stack:-
 PySpark Dependencies: PySpark.ml, PySpark.sql
+
 Python Dependencies: Keras, NumPy, Pandas, sklearn, Matplotlib, LSTM
+
 I used PySpark to handle real-time streaming data (as the sales of the items and goods have to be addressed in real-time) and build highly scalable models.
 
 ### Key learnings:-
