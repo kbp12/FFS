@@ -25,5 +25,7 @@ I used PySpark to handle real-time streaming data (as the sales of the items and
 
 ### Key learnings:-
 [1] Got hands on experience of the concept of forecasting
+
 [2] Understood architecture of LSTM and implementation in forecasting
+
 [3] Dealt with seasonality in forecasting
