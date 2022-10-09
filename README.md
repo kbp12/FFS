@@ -27,13 +27,13 @@ sales — The count of items sold at a particular
 
 
 ### Tech stack:-
-PySpark Dependencies: PySpark.ml, PySpark.sql
+###### PySpark Dependencies: PySpark.ml, PySpark.sql
 
-Python Dependencies: Keras, NumPy, Pandas, sklearn, Matplotlib, LSTM
+###### Python Dependencies: Keras, NumPy, Pandas, sklearn, Matplotlib, LSTM
 
 I used PySpark to handle real-time streaming data (as the sales of the items and goods have to be addressed in real-time) and build highly scalable models.
 
-### Key learnings:-
+#### Key learnings:-
 [1] Got hands on experience of the concept of forecasting
 
 [2] Understood architecture of LSTM and implementation in forecasting
